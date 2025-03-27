@@ -17,6 +17,11 @@ A simplified casino backend implemented in Java with Spring Boot.
    http://localhost:8080
    ```
 
+4. Visit Swagger UI for live API docs:
+   ```
+   http://localhost:8080/swagger-ui/index.html
+   ```
+
 ---
 
 ## 🔗 REST API Endpoints

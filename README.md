@@ -88,10 +88,6 @@ mvn test
 
 ---
 
-## ✅ Requirements
-- Java 17+
-- Maven 3.6+
-
 ## 📁 Persistence
 - All data is stored in-memory (no database)
 - Data is lost when the app stops

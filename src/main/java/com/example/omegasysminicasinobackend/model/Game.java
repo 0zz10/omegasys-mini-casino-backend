@@ -7,6 +7,7 @@ public class Game {
     private double winningMultiplier;
     private double maxBet;
     private double minBet;
+    private String imageUrl;
 
     // Getters and setters
     public String getId() {
@@ -55,5 +56,13 @@ public class Game {
 
     public void setMinBet(double minBet) {
         this.minBet = minBet;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 }

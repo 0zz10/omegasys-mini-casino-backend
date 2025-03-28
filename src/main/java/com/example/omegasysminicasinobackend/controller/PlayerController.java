@@ -24,7 +24,7 @@ public class PlayerController {
         if (LocalDate.now().minusYears(18).isBefore(player.getBirthdate())) {
             return "Must be at least 18 years old";
         }
-        player.setBalance(0);
+        player.setBalance(100);
         gameService.getPlayers().put(player.getUsername(), player);
         return "Player registered";
     }

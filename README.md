@@ -36,12 +36,13 @@ A simplified casino backend implemented in Java with Spring Boot.
 ```xml
 <games>
     <game>
-        <id>game3</id>
+        <id>game8</id>
         <name>Treasure Wheel</name>
         <chanceOfWinning>0.5</chanceOfWinning>
         <winningMultiplier>2.0</winningMultiplier>
         <maxBet>150</maxBet>
         <minBet>10</minBet>
+        <imageUrl>https://www.livecasinocomparer.com/wp-content/uploads/2024/11/Treasure-Island-wheel.jpg</imageUrl>>
     </game>
 </games>
 ```

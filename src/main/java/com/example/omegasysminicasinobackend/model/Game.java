@@ -1,5 +1,11 @@
 package com.example.omegasysminicasinobackend.model;
+import jakarta.xml.bind.annotation.XmlAccessType;
+import jakarta.xml.bind.annotation.XmlAccessorType;
+import jakarta.xml.bind.annotation.XmlElement;
+import jakarta.xml.bind.annotation.XmlRootElement;
 
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlRootElement(name = "game")
 public class Game {
     private String id;
     private String name;

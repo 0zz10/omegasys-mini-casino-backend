@@ -2,6 +2,9 @@ package com.example.omegasysminicasinobackend.model;
 
 import java.time.LocalDateTime;
 
+/**
+ * Represents a bet placed by a player on a game, including amount and result.
+ */
 public class Bet {
     private String playerId;
     private String gameId;

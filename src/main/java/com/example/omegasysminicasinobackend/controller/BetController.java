@@ -9,6 +9,10 @@ import java.time.LocalDateTime;
 
 @RestController
 @RequestMapping("/bets")
+/**
+ * REST controller for handling bet-related operations such as placing bets
+ * and retrieving bet history for players.
+ */
 public class BetController {
     private final GameService gameService;
 

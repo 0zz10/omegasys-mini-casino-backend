@@ -8,6 +8,9 @@ import java.util.List;
 
 @XmlRootElement(name = "games")
 @XmlAccessorType(XmlAccessType.FIELD)
+/**
+ * Wrapper class for a list of games, used for API responses.
+ */
 public class GameList {
 
     @XmlElement(name = "game")

@@ -9,6 +9,9 @@ import java.util.*;
 
 @RestController
 @RequestMapping("/players")
+/**
+ * Handles player registration and balance-related operations.
+ */
 public class PlayerController {
     private final GameService gameService;
 

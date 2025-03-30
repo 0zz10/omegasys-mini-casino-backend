@@ -2,6 +2,9 @@ package com.example.omegasysminicasinobackend.model;
 
 import java.time.LocalDate;
 
+/**
+ * Represents a registered player in the casino system.
+ */
 public class Player {
     private String id;
     private String name;

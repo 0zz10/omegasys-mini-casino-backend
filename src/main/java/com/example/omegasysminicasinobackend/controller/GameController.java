@@ -12,6 +12,9 @@ import java.util.Collection;
 
 @RestController
 @RequestMapping("/games")
+/**
+ * Handles endpoints related to game information and retrieval.
+ */
 public class GameController {
     private final GameService gameService;
 

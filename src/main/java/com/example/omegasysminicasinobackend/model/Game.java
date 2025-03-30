@@ -6,6 +6,9 @@ import jakarta.xml.bind.annotation.XmlRootElement;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlRootElement(name = "game")
+/**
+ * Represents a casino game that players can bet on.
+ */
 public class Game {
     private String id;
     private String name;
